@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="favicon.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/specific.css" />
+    <title>Bienvenido | Etecsa</title>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Main Container -->
+    <div class="md:w-[75%] lg:w-[60%] xl:w-[50%] mx-auto text-gray-800">
+      <!-- Header -->
+      <header class="bg-[#F4B600] mcontainer rounded-b-xl">
+        <!-- Logo -->
+        <div>
+          <!-- class="md:w-18 lg:w-24 xl:w-32 m-2" -->
+          <img
+            class="w-full xl:w-[98%] 2xl:w-[80%] rounded-b-xl"
+            src="/img/nauta_logo.png"
+            alt=""
+          />
+        </div>
+
+        <nav class="text-[#261D76] font-semibold ml-4">
+          <div class="text-lg xl:text-xl p-2">
+            Tus familiares y amigos pueden
+            <span class="text-gray-50 font-bold">regargar tu cuenta</span> desde
+            el esterior a través de:
+          </div>
+          <ul
+            class="md:grid md:grid-cols-2 justify-items-start xl:text-lg my-2 tracking-wide"
+          >
+            <li class="relative p-1 rounded flex items-center group">
+              <div
+                class="bg-gray-100 opacity-80 h-6 w-6 rounded-full transform scale-x-100 scale-y-100 group-hover:scale-x-0 group-hover:scale-y-0 ease-[cubic-bezier(1,-0.65,0,2.31)] duration-500"
+              ></div>
+
+              <a class="absolute ml-4 mb-2" href="/">
+                www.DTone.com
+                <div
+                  class="transition absolute w-full h-1 -bottom-0.5 opacity-80 right-0 mx-auto bg-gray-100 rounded transform scale-x-0 group-hover:scale-x-100 ease-[cubic-bezier(1,-0.65,0,2.31)] duration-500"
+                ></div
+              ></a>
+            </li>
+            <li class="relative p-1 rounded flex items-center group">
+              <div
+                class="bg-gray-100 opacity-80 h-6 w-6 rounded-full transform scale-x-100 scale-y-100 group-hover:scale-x-0 group-hover:scale-y-0 ease-[cubic-bezier(1,-0.65,0,2.31)] duration-500"
+              ></div>
+
+              <a class="absolute ml-4 mb-2" href="/">
+                www.csqworld.com
+                <div
+                  class="transition absolute w-full h-1 -bottom-0.5 opacity-80 right-0 mx-auto bg-gray-100 rounded transform scale-x-0 group-hover:scale-x-100 ease-[cubic-bezier(1,-0.65,0,2.31)] duration-500"
+                ></div
+              ></a>
+            </li>
+            <li class="relative p-1 rounded flex items-center group">
+              <div
+                class="bg-gray-100 opacity-80 h-6 w-6 rounded-full transform scale-x-100 scale-y-100 group-hover:scale-x-0 group-hover:scale-y-0 ease-[cubic-bezier(1,-0.65,0,2.31)] duration-500"
+              ></div>
+
+              <a class="absolute ml-4 mb-2" href="/">
+                www.ding.com
+                <div
+                  class="transition absolute w-full h-1 -bottom-0.5 opacity-80 right-0 mx-auto bg-gray-100 rounded transform scale-x-0 group-hover:scale-x-100 ease-[cubic-bezier(1,-0.65,0,2.31)] duration-500"
+                ></div
+              ></a>
+            </li>
+            <li class="relative p-1 rounded flex items-center group">
+              <div
+                class="bg-gray-100 opacity-80 h-6 w-6 rounded-full transform scale-x-100 scale-y-100 group-hover:scale-x-0 group-hover:scale-y-0 ease-[cubic-bezier(1,-0.65,0,2.31)] duration-500"
+              ></div>
+
+              <a class="absolute ml-4 mb-2" href="/">
+                www.bossrevolution.com
+                <div
+                  class="transition absolute w-full h-1 -bottom-0.5 opacity-80 right-0 mx-auto bg-gray-100 rounded transform scale-x-0 group-hover:scale-x-100 ease-[cubic-bezier(1,-0.65,0,2.31)] duration-500"
+                ></div
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Main -->
+      <main class="mx-1">
+        <div class="flex justify-between items-center my-2">
+          <div class="flex text-lg space-x-2">
+            <p class="font-bold tracking-wide">Cuba</p>
+
+            <!-- Date Componet-->
+            <div class="text-lg font-medium" id="date"></div>
+          </div>
+          <ul class="flex space-x-4 font-medium text-lg">
+            <li>Es</li>
+            <li>|</li>
+            <li>En</li>
+          </ul>
+        </div>
+        <!-- Tip -->
+        <div
+          class="flex justify-between my-2 bg-gray-300 items-center rounded text-lg"
+        >
+          <p
+            class="text-blue-800 tracking-wide font-bold uppercase rounded-l px-2 w-[25%]"
+          >
+            Bienvenido
+          </p>
+          <p class="p-1 px-2 font-semibold">Teclee los datos para acceder</p>
+        </div>
+        <!-- Form Container-->
+        <div class="my-4 text-lg">
+          <!-- Center -->
+          <div
+            class="shadow mx-auto p-4 px-8 bg-[#fcfcfd] rounded-md sm:max-w-[80%] md:max-w-[70%] lg:max-w-[62%] xl:max-w-[60%] 2xl:max-w-[50%]"
+          >
+            <!-- Form -->
+            <form action="" class="space-y-5">
+              <div class="space-y-1">
+                <label class="block text-lg font-medium mx-1" for="email"
+                  >Usuario</label
+                >
+                <input
+                  type="text"
+                  name="email"
+                  autocomplete="email"
+                  class="w-full px-3 py-1 border-gray-400 border shadow-sm rounded-lg focus:outline-none focus:border-blue-800 focus:ring-1 focus:ring-blue-800"
+                />
+              </div>
+              <div class="space-y-1">
+                <label class="block text-lg font-medium mx-1" for="password"
+                  >Contraseña</label
+                >
+                <input
+                  type="password"
+                  class="w-full px-3 py-1 border-gray-400 border shadow-sm rounded-lg focus:outline-none focus:border-blue-800 focus:ring-1 focus:ring-blue-800"
+                />
+              </div>
+              <!-- Buttons -->
+              <div class="w-full flex justify-between">
+                <button
+                  class="bg-[#1D1DEC] text-white px-3 w-24 font-semibold py-1 rounded-md tracking-wide"
+                >
+                  Aceptar
+                </button>
+                <button
+                  class="bg-gray-400 text-white px-3 w-24 font-semibold py-1 rounded-md tracking-wide"
+                >
+                  Cancelar
+                </button>
+                <button
+                  class="bg-gray-400 text-white px-3 w-24 font-semibold py-1 rounded-md tracking-wide"
+                >
+                  Ayuda
+                </button>
+              </div>
+            </form>
+            <!-- Form end -->
+          </div>
+        </div>
+        <!-- Form Container end -->
+        <div class="h-[0.20rem] rounded-md bg-gray-300" />
+        <!-- Utils Links -->
+        <div class="py-4 text-lg">
+          <ul class="flex items-center justify-around">
+            <li><a href="">Términos de uso</a></li>
+            <li><a href="">Información de usuario</a></li>
+            <li><a href="">Portal de Usuario</a></li>
+          </ul>
+        </div>
+        <!-- Utils Links end-->
+        <div class="h-[0.20rem] rounded-md bg-gray-300" />
+      </main>
+    </div>
+    <script type="module" src="/date.js"></script>
+  </body>
+</html>
